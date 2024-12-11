@@ -1,0 +1,14 @@
+mkdir a
+mkdir b
+incp ../a.txt a.txt
+cp a.txt b/b.txt
+mv a.txt c.txt
+incp ../b.txt d.txt
+mv d.txt b/d.txt
+ls
+cat c.txt
+info c.txt
+mkdir c
+rmdir c
+incp ../a.txt p.txt
+rm p.txt
